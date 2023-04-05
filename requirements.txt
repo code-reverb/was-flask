@@ -1,2 +1,10 @@
-flask==1.1.2
+# flask dependency
+flask==2.2.3
+flask_restx==1.1.0
+flask-marshmallow==2.0.0
+
+# python dependency without flask
+python-dotenv==1.0.0
+
+# db lib
 elasticsearch==7.10
