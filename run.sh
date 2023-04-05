@@ -1,0 +1,1 @@
+docker run -d --name was-flask --net reverb-net -p 8080:8080 was-flask
