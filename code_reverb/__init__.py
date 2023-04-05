@@ -13,8 +13,10 @@ def create_app():
 
     api = Api(
         blueprint,
+        version="0.0.1",
         title="CODE Reverb WEB APPLICATION",
         description="code reverb web service with flask restx apis",
+        contact="dsz08082@naver.com"
     )
 
     add_namespaces(api)
